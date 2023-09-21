@@ -43,10 +43,10 @@ def list_join(n):
 LOOP = 5
 sum_time = 0
 for i in range(LOOP):
-		start = time.time()
-		string_concat(10000)
-		end = time.time()
-		sum_time += end - start
+    start = time.time()
+    string_concat(10000)
+    end = time.time()
+    sum_time += end - start
 avg_time = sum_time / LOOP
 print(avg_time)
 ```
