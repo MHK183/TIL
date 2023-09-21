@@ -22,7 +22,7 @@ import time
 def string_concat(n):
     s = ''
     for _ in range(n):
-				s += 'a'
+	s += 'a'
     return s
 ```
 
